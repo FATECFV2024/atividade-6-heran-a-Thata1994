@@ -3,10 +3,13 @@ public class Empregado {
     protected String endereco;
     protected double salario;
     
+     // Construtor da classe Empregado
     public Empregado(String nome, String endereco) {
         this.nome = nome;
         this.endereco = endereco;
     }
+    
+     // Método que calcula o valor do INSS
     public double calcularINSS(){
         double inss = 0;
 
