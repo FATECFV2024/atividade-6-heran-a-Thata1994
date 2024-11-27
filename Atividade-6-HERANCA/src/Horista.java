@@ -1,3 +1,4 @@
+// Classe Horista que herda da classe Empregado
 public class Horista extends Empregado {
     private int horas;
 
@@ -15,6 +16,7 @@ public class Horista extends Empregado {
         this.horas = horas;
     }
 
+ // Método que calcula o salário do horista com base na quantidade de horas trabalhadas
     public void calcularSalario(){
         salario = horas * 50;
     }
